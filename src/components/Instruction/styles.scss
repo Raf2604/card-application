@@ -1,0 +1,11 @@
+.instruction-component {
+  width: 20%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 1px solid #404040;
+  p {
+    margin-bottom: 5px;
+  }
+}

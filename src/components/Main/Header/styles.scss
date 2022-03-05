@@ -1,0 +1,31 @@
+header {
+  height: 50px;
+  padding: 0px 30px;
+  border-bottom: 1px solid #404040;
+  display: flex;
+  align-items: center;
+  button {
+    height: 30px;
+    width: 75px;
+    background: transparent;
+    border-radius: 6px;
+    margin: 0px 5px;
+    cursor: pointer;
+  }
+  .add-card-btn {
+    border: 1px solid #32a932;
+    color: #32a932;
+    &:hover {
+      background-color: #32a932;
+      color: #000000;
+    }
+  }
+  .sort-cards-btn {
+    border: 1px solid #ff9800;
+    color: #ff9800;
+    &:hover {
+      background-color: #ff9800;
+      color: #000000;
+    }
+  }
+}

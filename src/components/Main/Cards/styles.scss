@@ -1,0 +1,39 @@
+.cards-container {
+  height: calc(100vh - 100px);
+  padding: 50px;
+  border-bottom: 1px solid #404040;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 40px;
+  overflow: hidden;
+  .card-block-grid {
+    display: flex;
+    justify-content: center;
+    .card-block {
+      position: relative;
+      height: 250px;
+      width: 250px;
+      border: 1px solid black;
+      padding: 10px;
+      button {
+        color: red;
+        background: transparent;
+        border: none;
+        position: absolute;
+        right: 10px;
+        cursor: pointer;
+      }
+      .card-block-body {
+        font-size: 30px;
+        font-weight: 600;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+.scroll-conatiner {
+  overflow-y: scroll;
+}
